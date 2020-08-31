@@ -8,7 +8,9 @@ def find_max_value(array)
     while array[i] do
            if array[i] > max
            max = array[i]
+         end
       i += 1
-end
+    end
+ max
 end
 binding.pry
