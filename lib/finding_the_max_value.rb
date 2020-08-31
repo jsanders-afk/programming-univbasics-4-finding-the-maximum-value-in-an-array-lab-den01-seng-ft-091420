@@ -10,4 +10,5 @@ def find_max_value(array)
            max = array[i]
       i += 1
 end
+end
 binding.pry
