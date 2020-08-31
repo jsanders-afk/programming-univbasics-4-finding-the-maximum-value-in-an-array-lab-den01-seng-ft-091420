@@ -6,11 +6,8 @@ def find_max_value(array)
   i = 0 
   max = array[0]
     while array[i] do
-       if array[i] > max
-      max = array[i]
+           if array[i] > max
+           max = array[i]
       i += 1
-  end
-     i += 1
-  end
 end
 binding.pry
